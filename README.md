@@ -24,3 +24,5 @@ The following steps were applied to attempt visualising the data. --ONLY TRAININ
 5. Partition data by subject id and then label
 6. Use partitioned data and get average readings for all users taking a particular action (falling under a certain label)
 7. Plot the readings in the most appropriate chart. Probably scatter
+
+After the above was implemented, there was still very little meaning in the visualisation. The entire data set was then plotted on an interactive chart where each line represented a single label's readings of a single pca component.
